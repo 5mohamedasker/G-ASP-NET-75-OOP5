@@ -42,6 +42,24 @@
                     but I don't want the modifications to affect the original version.
             */
             #endregion
+            #region Question03
+            //Q3 Static Members
+            /*a) What is a static field, and how is it different from an instance field ?
+                  Static field ==>> The value is shared/belongs to the same class,not to each individual object.
+                  Instance field=>> Each object has its own instance of it.
+            */
+            /*b) What is a static method? Can a static method directly access instance members?
+                  ==>> A static method belongs to the class itself and cannot directly access instance members.
+            */
+            /*c) What is a static constructor, and when is it executed ?
+                  ==>> It is a constructor used to initialize static members, such as static fields.
+                       It is executed at the first instance of the class.
+            */
+            /*d) What is a static class? Can you create an object from a static class?
+                  ==>> It's a class whose members must be static.
+                       You can't make an object out of it.
+            */
+            #endregion
         }
     }
 }
