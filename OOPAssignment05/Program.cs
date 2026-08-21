@@ -76,6 +76,25 @@
                   ==>> NO
             */
             #endregion
+            #region Question05
+            //Q5 Partial Classes and Partial Methods
+            /*a) What is a Partial Class?
+                  ==>> A Partial Class is one class divided into multiple files.
+            */
+            /*b) Why would a developer split one class into multiple files?
+                  ==>> To keep the code organized especially when the class is large.
+            */
+            /*c) What is a Partial Method?
+                  ==>> Method that can be declared in one part of a partial class
+                       and implemented in another part of the same partial class.
+            */
+            /*d) What happens if a declared partial method has no implementation?
+                  ==>> If it has no return type or access modifier
+                       the compiler can ignore it without error
+                  ==>> If it has a return type or access modifier it must have an implementation
+                       otherwise a compile-time error
+            */
+            #endregion
         }
     }
 }
